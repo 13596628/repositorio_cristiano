@@ -1,0 +1,11 @@
+comandos GIT
+
+git --version
+git config --global user.name "nome a ser cadastrado"
+git config --global user.email "e-mail a ser cadastrado"
+git config --global core.editor (nome do editor)
+git config --list
+git init (iniciar um repositorio)
+
+branth (versões diferentes do sistema. A branch princila é a MASTER)
+Commit (quando se faz alterações , arquivos novos, alterações ) e vai enviar as alterações ao GIT
