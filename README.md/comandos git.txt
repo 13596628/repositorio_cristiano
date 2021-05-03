@@ -39,3 +39,8 @@ git branch teste (cria novo branch)
 
 PARA NAVEGAR ENTRE OS BRANCH
 git branch checkout
+git chechout (nome da brach)
+
+SABER AS MUDANÇAS QUE FORAM EFETUADAS EM CADA ARQUIVO
+git diff
+git diff --name-only (mostra o nome do arquivo onde houve a modificação)
