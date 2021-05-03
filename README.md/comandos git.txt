@@ -13,6 +13,7 @@ Commit (quando se faz alterações , arquivos novos, alterações ) e vai enviar
 git status
 git add (nome do arquivo)
 git add -A (pergará todos os arquivos que ainda não foram traqueados , reconhecidos pelo git)
+
 git commit -m "ptimeiro commit"
 [master (root-commit) d8f12ae] primeiro commit
  1 file changed, 11 insertions(+)
@@ -24,4 +25,6 @@ Author: cristiano.sabino <cristianosabino@gmail.com>
 Date:   Sun May 2 21:27:12 2021 -0300
 
     primeiro commit
+
+git branch (mostra o branch que esta sendo utilizado estará com *)
 
