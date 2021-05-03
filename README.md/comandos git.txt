@@ -28,3 +28,14 @@ Date:   Sun May 2 21:27:12 2021 -0300
 
 git branch (mostra o branch que esta sendo utilizado estará com *)
 
+git reset (caso queira retornar algum commit - copia o codigo do commit (7 primeiros digitos) )
+ São 3 tipos de reset 
+--soft (volta para o estado antes do commit) 
+--mixer (volta ppara o estado antes do commit mais tem dar novvo add)
+--hard (Ignora tudo que foi feito antes do commit, tudo sumira - pouco recomendado)
+
+TRABALHANDO EM VARIOS BRANCHS
+git branch teste (cria novo branch)
+
+PARA NAVEGAR ENTRE OS BRANCH
+git branch checkout
