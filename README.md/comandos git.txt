@@ -60,3 +60,22 @@ Após o comando foi gerado na pasta (/c/users/hp/.ssh/id_rsa.pub) duas pastas :
 A id_rsa.pub foi arrastada para leitura em um arquivo .txt e o seu conteúdo copiado.
 depois no seu github no seu perfil settings - ssh and gpg keys cola a chave copiada e coloca um titulo.
 após isso , o computador ja conversará com seu git
+
+agora vamos enviar o repositorio de local para o github
+
+…or create a new repository on the command line
+echo "# repositorio_cristiano" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/13596628/repositorio_cristiano.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/13596628/repositorio_cristiano.git
+git branch -M main
+git push -u origin main
+
+após esse procedimento faremos o envio do nosso brach master para o git
+ git push origin main (para git origin criado estamos enviando o main ou poderia master ou o qquer outro brach )
