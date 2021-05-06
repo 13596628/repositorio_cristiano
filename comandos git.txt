@@ -45,18 +45,7 @@ SABER AS MUDANÇAS QUE FORAM EFETUADAS EM CADA ARQUIVO
 git diff
 git diff --name-only (mostra o nome do arquivo onde houve a modificação)
 
-06/05 - 
-Criado repositorio no git hub usuário (https://github.com/13596628/curs_git_youtube.git) 
-após essa ação criado através do comando a seguir a chave de autenticação
-entre o site do github e o meu computador para que haja uma autenticação através de uma chave privada
-assim eu coinsigo fazer os commits para o git hub.
-utilizado através do gitbash o comando para windows:
-ssh keygen -t rsa -b 4096 -C "e-mail"
+git checkout HEAD -- nome do arquivo (assim pode ser recuperado arquivo. onde HEAD (puxa o nome do branch que se está))
 
-Após o comando foi gerado na pasta (/c/users/hp/.ssh/id_rsa.pub) duas pastas :
-- id_rsa
--id_rsa.pub
+06/05 - teste diff
 
-A id_rsa.pub foi arrastada para leitura em um arquivo .txt e o seu conteúdo copiado.
-depois no seu github no seu perfil settings - ssh and gpg keys cola a chave copiada e coloca um titulo.
-após isso , o computador ja conversará com seu git
