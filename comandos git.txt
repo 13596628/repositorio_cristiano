@@ -1,0 +1,48 @@
+comandos GIT
+
+git --version
+git config --global user.name "nome a ser cadastrado"
+git config --global user.email "e-mail a ser cadastrado"
+git config --global core.editor (nome do editor)
+git config --list
+git init (iniciar um repositorio)
+
+branth (versões diferentes do sistema. A branch princila é a MASTER)
+Commit (quando se faz alterações , arquivos novos, alterações ) e vai enviar as alterações ao GIT
+
+git status
+git add (nome do arquivo)
+git add -A (pergará todos os arquivos que ainda não foram traqueados , reconhecidos pelo git)
+
+git commit -m "ptimeiro commit"
+[master (root-commit) d8f12ae] primeiro commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 README.md/comandos git.txt
+
+ git log (mostra a lsita de todos os commit executados no branch)
+commit d8f12aeb2e4b086feeab82eee8e764b9a1e2ebad (HEAD -> master)
+Author: cristiano.sabino <cristianosabino@gmail.com>
+Date:   Sun May 2 21:27:12 2021 -0300
+
+    primeiro commit
+
+git branch (mostra o branch que esta sendo utilizado estará com *)
+
+git reset (caso queira retornar algum commit - copia o codigo do commit (7 primeiros digitos) )
+ São 3 tipos de reset 
+--soft (volta para o estado antes do commit) 
+--mixer (volta ppara o estado antes do commit mais tem dar novvo add)
+--hard (Ignora tudo que foi feito antes do commit, tudo sumira - pouco recomendado)
+
+TRABALHANDO EM VARIOS BRANCHS
+git branch teste (cria novo branch)
+
+PARA NAVEGAR ENTRE OS BRANCH
+git branch checkout
+git chechout (nome da brach)
+
+SABER AS MUDANÇAS QUE FORAM EFETUADAS EM CADA ARQUIVO
+git diff
+git diff --name-only (mostra o nome do arquivo onde houve a modificação)
+
+06/05
