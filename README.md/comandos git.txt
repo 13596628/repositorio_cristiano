@@ -83,3 +83,17 @@ após esse procedimento faremos o envio do nosso brach master para o git
 
 git revert --no-edit (coloca o hash)
  (pega a alteração feita que quer reverter quando fez o commit)
+
+
+ git push origin new_branch (para subir o branch para o repositorio , pois apenas o master sobe automativo
+caso queira incluir novo branch no repositorio , selecionada o branch
+git checkout nome do branch)
+
+deletar branch remoto (coloca os : e nome do branch)
+git push origin :new_branch
+
+Para deletar brach local
+git branch -d nome do branch local a ser deletado
+
+
+
