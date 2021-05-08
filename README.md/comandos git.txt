@@ -78,4 +78,8 @@ git branch -M main
 git push -u origin main
 
 após esse procedimento faremos o envio do nosso brach master para o git
- git push origin main (para git origin criado estamos enviando o main ou poderia master ou o qquer outro brach )
+ git push origin main (para git origin criado estamos enviando o main
+ ou poderia master ou o qquer outro brach )
+
+git revert --no-edit (coloca o hash)
+ (pega a alteração feita que quer reverter quando fez o commit)
